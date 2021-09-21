@@ -1,0 +1,75 @@
+.header-tag{
+    text-align: center;
+}
+.header-section{
+    background-color:#f6f9fc ;
+}
+.header-tag p{
+    
+}
+.point-button{
+
+}
+.poient b{
+     font-size: 30px;
+}
+.poient p{
+    color: #777;
+}
+.poient .first-p{
+    margin-top:80px ; 
+}
+.bg-section{
+    background-image: url(free-bg.jpg);
+    position: relative;
+	z-index: 9;
+}
+.bg-section::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 255, 0.568);
+
+}
+.bg-text{
+    padding-top: 260px;
+    padding-bottom: 200px ;
+}
+.box:hover{
+    background-color: #3066ed;
+    cursor: pointer;
+    color: #fff;
+    transition: .4s;
+}
+.box:hover button{
+    background-color: #fff;
+    color: #3066ed;
+}
+.point-button::after{
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:-1 ;
+    transition: .5s;
+}
+.form-section{
+    background-color:#3763eb ;
+}
+.email{
+   border-radius:20px ;
+   width:300px ;
+}
+.fotter{
+    background-color:#f6f9fc ;
+}
+.fotter-butto{
+    margin-top:90px ;
+}
